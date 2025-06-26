@@ -4,8 +4,9 @@
     <id>GMediator</id>
     <version>1.0.0</version>
     <authors>GAndG</authors>
+    <readme>README.md</readme>
     <description>Lightweight Mediator Pattern Implementation</description>
-    <repository type="git" />
+    <repository type="git" commit="0f30f59356793c1b8c24784a34cc7cc85ecc6d2a" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.6" exclude="Build,Analyzers" />
@@ -14,5 +15,6 @@
   </metadata>
   <files>
     <file src="C:\POC\MediatorNugetPackage\GMediator\bin\Debug\net9.0\GMediator.dll" target="lib\net9.0\GMediator.dll" />
+    <file src="C:\POC\MediatorNugetPackage\GMediator\README.md" target="README.md" />
   </files>
 </package>

@@ -10,3 +10,4 @@ C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.dll
 C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\refint\GMediator.dll
 C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.pdb
 C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\ref\GMediator.dll
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.sourcelink.json

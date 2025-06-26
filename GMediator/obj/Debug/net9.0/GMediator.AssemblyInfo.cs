@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Lightweight Mediator Pattern Implementation")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de5080258b71cfc2cc18591814b547c9f330462c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f30f59356793c1b8c24784a34cc7cc85ecc6d2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GMediator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GMediator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
