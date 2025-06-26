@@ -6,7 +6,7 @@
     <authors>GAndG</authors>
     <readme>README.md</readme>
     <description>Lightweight Mediator Pattern Implementation</description>
-    <repository type="git" commit="0f30f59356793c1b8c24784a34cc7cc85ecc6d2a" />
+    <repository type="git" commit="21004bd7b02de625364bca438672e48866add112" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.6" exclude="Build,Analyzers" />
