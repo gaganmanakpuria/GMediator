@@ -9,6 +9,7 @@
     <Company>GClassCompany</Company>
     <PackageId>GMediator</PackageId>
     <Description>Lightweight Mediator Pattern Implementation</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
@@ -23,6 +24,7 @@
 
 <ItemGroup>
   <None Include="README.md" Pack="true" PackagePath="" />
+  <None Include="LICENSE.txt" Pack="true" PackagePath="" />
 </ItemGroup>
 
   
