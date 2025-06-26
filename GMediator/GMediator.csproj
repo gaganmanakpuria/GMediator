@@ -16,4 +16,13 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.6" />
   </ItemGroup>
   
+  <PropertyGroup>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+</PropertyGroup>
+
+<ItemGroup>
+  <None Include="README.md" Pack="true" PackagePath="" />
+</ItemGroup>
+
+  
 </Project>
