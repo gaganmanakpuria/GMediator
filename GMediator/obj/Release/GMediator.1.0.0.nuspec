@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GMediator</id>
+    <version>1.0.0</version>
+    <authors>GAndG</authors>
+    <description>Lightweight Mediator Pattern Implementation</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\POC\MediatorNugetPackage\GMediator\bin\Release\net9.0\GMediator.dll" target="lib\net9.0\GMediator.dll" />
+  </files>
+</package>

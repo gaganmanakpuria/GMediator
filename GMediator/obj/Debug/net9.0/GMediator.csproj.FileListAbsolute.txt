@@ -1,0 +1,12 @@
+C:\POC\MediatorNugetPackage\GMediator\bin\Debug\net9.0\GMediator.deps.json
+C:\POC\MediatorNugetPackage\GMediator\bin\Debug\net9.0\GMediator.dll
+C:\POC\MediatorNugetPackage\GMediator\bin\Debug\net9.0\GMediator.pdb
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.csproj.AssemblyReference.cache
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.GeneratedMSBuildEditorConfig.editorconfig
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.AssemblyInfoInputs.cache
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.AssemblyInfo.cs
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.csproj.CoreCompileInputs.cache
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.dll
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\refint\GMediator.dll
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.pdb
+C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\ref\GMediator.dll

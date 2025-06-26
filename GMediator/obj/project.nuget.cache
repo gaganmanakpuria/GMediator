@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5YuZr5oD7rI=",
+  "success": true,
+  "projectFilePath": "C:\\POC\\MediatorNugetPackage\\GMediator\\GMediator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GagandeepSingh\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.6\\microsoft.extensions.dependencyinjection.9.0.6.nupkg.sha512",
+    "C:\\Users\\GagandeepSingh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
