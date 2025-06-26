@@ -1,13 +1,35 @@
-# .github/workflows/test.yml
-name: Test Workflow
+name: Publish NuGet Package
 
 on:
   push:
     branches:
-      - main
+      - master         # 👈 Every push to main branch
+    tags:
+      - 'v*'         # 👈 OR any version tag like v1.0.0
 
 jobs:
-  test:
+  build-and-publish:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "✅ GitHub Actions is working!"
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'  # Or your actual target version
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build project
+        run: dotnet build --configuration Release
+
+      - name: Pack project
+        run: dotnet pack ./GMediator/GMediator.csproj --configuration Release --output ./nupkg
+
+      - name: Push to NuGet
+        run: dotnet nuget push ./nupkg/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+        # ⚠️ Prevents failure on non-version pushes
+        continue-on-error: true
