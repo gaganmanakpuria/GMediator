@@ -12,7 +12,6 @@ namespace GMediator.Extensions
 
             var handlerInterfaceType = typeof(IRequestHandler<,>);
 
-            // Scan all loaded assemblies (application, domain, infra, plugin, etc.)
             var assemblies = AppDomain.CurrentDomain
                               .GetAssemblies()
                               .Where(a => !a.IsDynamic &&
