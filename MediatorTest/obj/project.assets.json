@@ -1062,23 +1062,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GagandeepSingh\\.nuget\\packages\\": {},
+    "C:\\Users\\gagan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\POC\\MediatorNugetPackage\\MediatorTest\\MediatorTest.csproj",
+      "projectUniqueName": "D:\\Projects\\GMediator\\gaganmanakpuria\\GMediator\\MediatorTest\\MediatorTest.csproj",
       "projectName": "MediatorTest",
-      "projectPath": "C:\\POC\\MediatorNugetPackage\\MediatorTest\\MediatorTest.csproj",
-      "packagesPath": "C:\\Users\\GagandeepSingh\\.nuget\\packages\\",
-      "outputPath": "C:\\POC\\MediatorNugetPackage\\MediatorTest\\obj\\",
+      "projectPath": "D:\\Projects\\GMediator\\gaganmanakpuria\\GMediator\\MediatorTest\\MediatorTest.csproj",
+      "packagesPath": "C:\\Users\\gagan\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\GMediator\\gaganmanakpuria\\GMediator\\MediatorTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\GagandeepSingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1087,15 +1087,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\POC\\MediatorNugetPackage\\GMediator\\GMediator.csproj": {
-              "projectPath": "C:\\POC\\MediatorNugetPackage\\GMediator\\GMediator.csproj"
+            "D:\\Projects\\GMediator\\gaganmanakpuria\\GMediator\\GMediator\\GMediator.csproj": {
+              "projectPath": "D:\\Projects\\GMediator\\gaganmanakpuria\\GMediator\\GMediator\\GMediator.csproj"
             }
           }
         }
@@ -1110,7 +1109,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1148,12 +1147,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

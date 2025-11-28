@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <readme>README.md</readme>
     <description>Lightweight Mediator Pattern Implementation</description>
-    <repository type="git" commit="d42049a1912771cb69979b21c55899661a046bf6" />
+    <repository type="git" commit="1ec1517f74269c5c9d1ea562bbb4324647405a57" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.6" exclude="Build,Analyzers" />
@@ -16,8 +16,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\POC\MediatorNugetPackage\GMediator\bin\Debug\net9.0\GMediator.dll" target="lib\net9.0\GMediator.dll" />
-    <file src="C:\POC\MediatorNugetPackage\GMediator\README.md" target="README.md" />
-    <file src="C:\POC\MediatorNugetPackage\GMediator\LICENSE.txt" target="LICENSE.txt" />
+    <file src="D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\bin\Debug\net9.0\GMediator.dll" target="lib\net9.0\GMediator.dll" />
+    <file src="D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\README.md" target="README.md" />
+    <file src="D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\LICENSE.txt" target="LICENSE.txt" />
   </files>
 </package>

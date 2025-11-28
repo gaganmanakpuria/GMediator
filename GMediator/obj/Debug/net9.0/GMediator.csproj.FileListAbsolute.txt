@@ -11,3 +11,16 @@ C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\refint\GMediator.dll
 C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.pdb
 C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\ref\GMediator.dll
 C:\POC\MediatorNugetPackage\GMediator\obj\Debug\net9.0\GMediator.sourcelink.json
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\bin\Debug\net9.0\GMediator.deps.json
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\bin\Debug\net9.0\GMediator.dll
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\bin\Debug\net9.0\GMediator.pdb
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.csproj.AssemblyReference.cache
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.AssemblyInfoInputs.cache
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.AssemblyInfo.cs
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.csproj.CoreCompileInputs.cache
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.sourcelink.json
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.dll
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\refint\GMediator.dll
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\GMediator.pdb
+D:\Projects\GMediator\gaganmanakpuria\GMediator\GMediator\obj\Debug\net9.0\ref\GMediator.dll
