@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
 using GMediator.Interfaces;
+using System.Reflection;
 
 namespace GMediator.Extensions
 {
@@ -8,17 +8,28 @@ namespace GMediator.Extensions
     {
         public static IServiceCollection AddGMediator(this IServiceCollection services)
         {
-            services.AddSingleton<IMediator>(sp => new GMediator.Implementations.Mediator(sp));
+            services.AddSingleton<IMediator, GMediator.Implementations.Mediator>();
 
-            var handlerInterfaceType = typeof(IRequestHandler<,>);
+            var handlerInterface = typeof(IRequestHandler<,>);
 
-            var assemblies = AppDomain.CurrentDomain
-                              .GetAssemblies()
-                              .Where(a => !a.IsDynamic &&
-                                          !string.IsNullOrWhiteSpace(a.FullName))
-                              .ToArray();
+            // Load entry assembly
+            var entryAssembly = Assembly.GetEntryAssembly();
 
-            foreach (var asm in assemblies)
+            // Load all referenced assemblies (ONLY your projects)
+            var referencedAssemblies = entryAssembly!
+                .GetReferencedAssemblies()
+                .Select(Assembly.Load)
+                .ToList();
+
+            // Also scan the API assembly itself
+            referencedAssemblies.Add(entryAssembly);
+
+            // Distinct assemblies
+            var assembliesToScan = referencedAssemblies
+                .Distinct()
+                .ToArray();
+
+            foreach (var asm in assembliesToScan)
             {
                 Type[] types;
                 try
@@ -27,25 +38,23 @@ namespace GMediator.Extensions
                 }
                 catch
                 {
-                    continue; // ignore reflection errors
+                    continue;
                 }
 
                 foreach (var type in types)
                 {
                     var interfaces = type.GetInterfaces()
                         .Where(i => i.IsGenericType &&
-                                    i.GetGenericTypeDefinition() == handlerInterfaceType);
+                                    i.GetGenericTypeDefinition() == handlerInterface);
 
-                    foreach (var @interface in interfaces)
+                    foreach (var handlerType in interfaces)
                     {
-                        services.AddTransient(@interface, type);
+                        services.AddTransient(handlerType, type);
                     }
                 }
             }
 
             return services;
         }
-
-
     }
 }
