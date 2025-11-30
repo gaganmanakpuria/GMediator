@@ -21,7 +21,7 @@ namespace GMediator.Implementations
             var handler = _serviceProvider.GetService(handlerType);
 
             if (handler == null)
-                throw new InvalidOperationException($"No handler found for request type {request.GetType().Name}");
+                throw new InvalidOperationException($"No handler found for request type: {request.GetType().Name}");
 
             var method = handlerType.GetMethod("Handle");
             return await (Task<TResponse>)method.Invoke(handler, new object[] { request, cancellationToken })!;
